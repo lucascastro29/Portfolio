@@ -1,0 +1,2255 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap');
+.App {
+  font-family: "Source Code Pro","monospace";
+  text-align: center;
+  background-color: #242424;
+
+}
+
+.languajes{
+  color: white;
+  z-index: 3;
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  right: 0;
+  left: 40px;
+  height: 40px;
+  width: 40px;
+  background-color:"blue";
+  font-size:60px;
+}
+
+.divcontainer{
+   
+  background: url(https://www.desophict.com/wp-content/uploads/2021/03/desarrollo-web.jpg);
+  background-repeat:no-repeat ;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: cover;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.h1{
+  font-size:300%;
+  color: rgb(255, 255, 255);
+font-family: "Source Code Pro",monospace;
+width: max-content;
+  text-align: center;
+  position: relative;
+  text-shadow: 6px 1px 5px  black;
+} 
+
+
+
+.filterc{
+  backdrop-filter: blur(1.5px) sepia(40%) saturate(150%);
+
+  
+
+}
+
+
+.container1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 800px;
+}
+
+
+.header{
+  display: flex;
+  padding: 20px;
+  background-color: black;
+  
+}
+
+
+.btnm{
+  color:white;
+      width: 0%;
+      height: 8%;
+      background-color: white;
+
+      font-size: 125%;
+  padding: 5px;
+    margin:0px 15px 0px 15px ;   
+      border:  transparent 5px;
+      text-align: center;
+      text-decoration: none;
+
+  }
+  .btnm:hover{
+    animation: haller 0.25s ;
+animation-timing-function: step-end;
+
+
+  }
+
+  
+
+
+@keyframes haller {
+
+  100%{width: 100%;
+    color:black;
+
+    }
+}
+
+
+
+main{
+ 
+  color: white;
+}
+.Tittle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.tittlestyle{
+  width: 250px;
+  font: "montserrat";
+color: white;
+  font-size: 30px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 1em;
+    margin: 0px;
+    
+  margin-top: 30px;
+  padding-bottom: 3px;
+  border-bottom:solid #75b75d 2px;
+  
+
+}
+.borderbottomx{
+  width: 800px;
+  padding-bottom: 3px;
+  border-bottom:solid #75b75d 2px;
+  margin-bottom: 30px
+}
+.Projectsbox{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(1.5px)  ;
+  
+;
+}
+
+
+.logos1{
+  margin-top: 15px;
+
+  position: relative;
+  color: white;
+   margin-left:20px ;
+   margin-right: 20px;
+    width:35px;
+     height:40px;
+     transition: all;
+     transition-duration: 0.25s;
+}
+.logos1:hover{
+  margin-top: 0px;
+
+  width:55px;
+     height:65px;
+     margin-left:10px;
+     margin-right: 10px;
+
+}
+.logos2{
+  position: relative;
+  color: white;
+  margin-top: 15px;
+   margin-left:20px ;
+   margin-right: 20px;
+    width:35px;
+     height:40px;
+     transition: all;
+     transition-duration: 0.25s;
+}
+.logos2:hover{
+  margin-top: 0px;
+  width:55px;
+     height:65px;
+     margin-left:10px;
+     margin-right: 10px;
+
+}
+
+
+
+
+.buttonweb{
+  border-radius: 20%;
+  padding:  5px 8px 5px 8px;
+
+}
+
+
+.boxMe{
+  font-size: 30px;
+  z-index: 1;
+  height: 400px;
+  color: white;
+  margin: 30px;  
+  margin-right: 0px;
+  padding:0px;
+background-color: #242424;
+  border:solid 100px white;
+  border-radius: 25px !important;
+  box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+
+}
+.boxMe2{z-index: 1  ;
+  margin: 30px;
+  margin-left: 0px;
+  margin-right: 0px;
+padding: 0px;
+
+  height: 400px;
+  box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+
+
+
+}
+.imagefather{ 
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+  overflow:hidden;
+  transition: all ease 0.5s ;
+
+  backdrop-filter: saturate(125%)  ;
+
+
+}
+.image{ 
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  transition: all ease 0.5s ;
+}
+.card:hover .image{
+  -webkit-transform:scale(1.3);transform:scale(1.3);
+
+
+}
+.card:hover .imagefather{
+  backdrop-filter: saturate(25%)  ;
+
+}
+.objectspajes{
+  position: relative;
+  bottom: 00px;
+  top: 10px;
+  border-radius: 25px !important;
+  border-color: transparent;
+  background-color:#75b75d00 ;
+color: transparent;
+transition: all ease 0.5s ;
+}
+
+
+.card:hover .objectspajes{  
+  color: white;
+  background-color:#75b75d;
+  top: 40px;
+  bottom: 0px;
+  box-shadow: 0 4px 15px 10px rgba(0, 0, 0, 0.75);
+
+}
+@keyframes pito {
+  to{
+    bottom: 0px;
+
+  }
+  
+}
+
+.card{z-index:1;
+  margin: 15px;
+  height: 200px;
+  width: 300px;
+  border:solid 10px #6B2E2C;
+   box-shadow:15px 20px 25px black;
+}
+
+.imgOverlay{
+  padding: 0px;
+
+}
+
+.projects{
+  background:url(https://www.trepcom.com/wp-content/uploads/2014/10/screenshotgv.png) ;
+  background-repeat:no-repeat ;
+  background-attachment: fixed;
+  background-position:center;
+  background-size: cover;
+
+
+}
+.imgarrow{
+  size: 15px;
+  color: white;
+position: relative;
+animation-name: tulas;
+animation-duration: 0.75s;
+
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate-reverse;
+
+}
+@keyframes tulas {
+  0%{
+    top:0px;
+
+  }
+  50%{
+    top:0px
+  }
+  100%{
+top:30px
+  }
+}
+
+.filterxd{
+  backdrop-filter: blur(2px) saturate(80%);}
+
+
+
+
+
+:root{
+  --bg-color:hsl(49 37% 94%);
+  --typewriterSpeed:2s;
+  --typewriterCharacters:24;
+
+    --btn-color:white;
+    --btn-bg: black;
+    --btn-bg-hover: white;
+    --btn-color-hover: #fff;
+  
+}
+
+.font24{z-index: -1;
+  color: #242424;
+  position: absolute;
+}
+
+
+.font25{z-index: 1;
+  color: white;
+  position: absolute;
+}
+
+
+
+
+.AboutMe{
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.AboutMe::before,
+.AboutMe::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.AboutMe::before{
+  background: #242424;
+animation: typewriter var(--typewriterSpeed) steps(8) 0.5s  forwards;
+
+}
+.AboutMe::after{
+ width: 0.125em;
+ background-color: #242424;
+ 
+animation: typewriter var(--typewriterSpeed) steps(8) 0.5s  forwards, bar 450ms steps(8) 0.5s 4;
+;
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+---
+
+
+.AboutMe2{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.AboutMe2::before,
+.AboutMe2::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.AboutMe2::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(7) 0.5s  forwards;
+
+}
+.AboutMe2::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation: typewriter var(--typewriterSpeed) steps(7) 0.5s  forwards,
+ bar 450ms steps(7) 0.5s 4;
+
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: transparent;
+
+  }
+  
+}
+
+
+---
+
+
+.AboutMe3{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.AboutMe3::before,
+.AboutMe3::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.AboutMe3::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(15) 0.5s  forwards;
+
+}
+.AboutMe3::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation: typewriter var(--typewriterSpeed) steps(15) 0.5s  forwards,
+ bar 450ms steps(15) 0.5s 4;
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: transparent;
+
+  }
+  
+}
+
+
+--- 
+
+
+.FIRSTsentence1{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.FIRSTsentence1::before,
+.FIRSTsentence1::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.FIRSTsentence1::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(67) 0.5s  forwards;
+animation-delay: 3s;
+
+
+}
+.FIRSTsentence1::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(67) 0.5s  forwards, bar 450ms steps(67) 0.5s 3;
+ animation-delay: 3s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+---
+
+.FIRSTsentence2{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.FIRSTsentence2::before,
+.FIRSTsentence2::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.FIRSTsentence2::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(48) 0.5s  forwards;
+animation-delay: 5s;
+
+}
+.FIRSTsentence2::after{
+ width: 0.125em;
+ background-color: #242424;
+
+ animation:typewriter var(--typewriterSpeed) steps(48) 0.5s  forwards, bar 450ms steps(67) 0.5s 3;
+ animation-delay: 5s;
+
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+
+--- 
+
+.FIRSTsentence3{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.FIRSTsentence3::before,
+.FIRSTsentence3::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.FIRSTsentence3::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(49) 0.5s  forwards;
+animation-delay: 7s;
+
+}
+.FIRSTsentence3::after{
+ width: 0.125em;
+ background-color: #242424;
+
+ animation:typewriter var(--typewriterSpeed) steps(49) 0.5s  forwards, bar 450ms steps(67) 0.5s 3;
+ animation-delay: 7s;
+
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+--- 
+
+.FIRSTsentence4{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.FIRSTsentence4::before,
+.FIRSTsentence4::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.FIRSTsentence4::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(46) 0.5s  forwards;
+animation-delay: 9s;
+
+}
+.FIRSTsentence4::after{
+ width: 0.125em;
+ background-color: #242424;
+
+ animation:typewriter var(--typewriterSpeed) steps(46) 0.5s  forwards, bar 450ms steps(67) 0.5s 4;
+ animation-delay: 9s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+--- 
+
+.FIRSTsentence5{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.FIRSTsentence5::before,
+.FIRSTsentence5::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.FIRSTsentence5::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(5) 0.5s  forwards;
+animation-delay: 11s;
+
+}
+.FIRSTsentence5::after{
+ width: 0.125em;
+ background-color: #242424;
+
+ animation:typewriter var(--typewriterSpeed) steps(5) 0.5s  forwards, bar 450ms steps(5) 0.5s infinite;
+ animation-delay: 11s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+
+--- 
+
+
+.SECONDsentence1{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+  
+}
+
+
+.SECONDsentence1::before,
+.SECONDsentence1::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.SECONDsentence1::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(70) 0.5s  forwards;
+animation-delay: 3s;
+
+
+}
+.SECONDsentence1::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(70) 0.5s  forwards, bar 450ms steps(70) 0.5s 3;
+ animation-delay: 3s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+
+
+
+.SECONDsentence2{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.SECONDsentence2::before,
+.SECONDsentence2::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.SECONDsentence2::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(70) 0.5s  forwards;
+animation-delay: 6s;
+
+
+}
+.SECONDsentence2::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(70) 0.5s  forwards, bar 450ms steps(70) 0.5s 3;
+ animation-delay: 6s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+
+.SECONDsentence3{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.SECONDsentence3::before,
+.SECONDsentence3::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.SECONDsentence3::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(11) 0.5s  forwards;
+animation-delay: 8s;
+
+
+}
+.SECONDsentence3::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(11) 0.5s  forwards, bar 450ms steps(11) 0.5s 3;
+ animation-delay: 8s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+.SECONDsentence4{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.SECONDsentence4::before,
+.SECONDsentence4::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.SECONDsentence4::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(60) 0.5s  forwards;
+animation-delay: 10s;
+
+
+}
+.SECONDsentence4::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(60) 0.5s  forwards, bar 450ms steps(60) 0.5s 3;
+ animation-delay: 10s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+
+.SECONDsentence5{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.SECONDsentence5::before,
+.SECONDsentence5::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.SECONDsentence5::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(61) 0.5s  forwards;
+animation-delay: 12s;
+
+
+}
+.SECONDsentence5::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(61) 0.5s  forwards, bar 450ms steps(61) 0.5s 3;
+ animation-delay: 12s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+.THERDsentence1{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.THERDsentence1::before,
+.THERDsentence1::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.THERDsentence1::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(47) 0.5s  forwards;
+animation-delay: 3s;
+
+
+}
+.THERDsentence1::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(47) 0.5s  forwards, bar 450ms steps(47) 0.5s 3;
+ animation-delay: 3s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+--- 
+
+.THERDsentence2{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.THERDsentence2::before,
+.THERDsentence2::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.THERDsentence2::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(43) 0.5s  forwards;
+animation-delay: 5s;
+
+
+}
+.THERDsentence2::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(43) 0.5s  forwards, bar 450ms steps(43) 0.5s 4;
+ animation-delay: 5s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+
+.THERDsentence3{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.THERDsentence3::before,
+.THERDsentence3::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.THERDsentence3::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(15) 0.5s  forwards;
+animation-delay: 7s;
+
+
+}
+.THERDsentence3::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(15) 0.5s  forwards, bar 450ms steps(15) 0.5s infinite;
+ animation-delay: 7s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+--- 
+---
+
+
+
+.esAboutMe{
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esAboutMe::before,
+.esAboutMe::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esAboutMe::before{
+  background: #242424;
+animation: typewriter var(--typewriterSpeed) steps(12) 0.5s  forwards;
+
+}
+.esAboutMe::after{
+ width: 0.125em;
+ background-color: #242424;
+ 
+animation: typewriter var(--typewriterSpeed) steps(12) 0.5s  forwards, bar 450ms steps(8) 0.5s 4;
+;
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+---
+
+
+.esAboutMe2{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esAboutMe2::before,
+.esAboutMe2::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esAboutMe2::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(8) 0.5s  forwards;
+
+}
+.esAboutMe2::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation: typewriter var(--typewriterSpeed) steps(8) 0.5s  forwards,
+ bar 450ms steps(8) 0.5s 4;
+
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: transparent;
+
+  }
+  
+}
+
+
+---
+
+
+.esAboutMe3{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esAboutMe3::before,
+.esAboutMe3::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esAboutMe3::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(19) 0.5s  forwards;
+
+}
+.esAboutMe3::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation: typewriter var(--typewriterSpeed) steps(19) 0.5s  forwards,
+ bar 450ms steps(15) 0.5s 4;
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: transparent;
+
+  }
+  
+}
+
+
+--- 
+
+
+.esFIRSTsentence1{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esFIRSTsentence1::before,
+.esFIRSTsentence1::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esFIRSTsentence1::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(63) 0.5s  forwards;
+animation-delay: 3s;
+
+
+}
+.esFIRSTsentence1::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(63) 0.5s  forwards, bar 450ms steps(63) 0.5s 4;
+ animation-delay: 3s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+---
+
+.esFIRSTsentence2{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esFIRSTsentence2::before,
+.esFIRSTsentence2::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esFIRSTsentence2::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(61) 0.5s  forwards;
+animation-delay: 5s;
+
+}
+.esFIRSTsentence2::after{
+ width: 0.125em;
+ background-color: #242424;
+
+ animation:typewriter var(--typewriterSpeed) steps(61) 0.5s  forwards, bar 450ms steps(61) 0.5s 4;
+ animation-delay: 5s;
+
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+
+--- 
+
+.esFIRSTsentence3{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esFIRSTsentence3::before,
+.esFIRSTsentence3::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esFIRSTsentence3::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(58) 0.5s  forwards;
+animation-delay: 7s;
+
+}
+.esFIRSTsentence3::after{
+ width: 0.125em;
+ background-color: #242424;
+
+ animation:typewriter var(--typewriterSpeed) steps(58) 0.5s  forwards, bar 450ms steps(58) 0.5s 4;
+ animation-delay: 7s;
+
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+--- 
+
+.esFIRSTsentence4{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esFIRSTsentence4::before,
+.esFIRSTsentence4::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esFIRSTsentence4::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(52) 0.5s  forwards;
+animation-delay: 9s;
+
+}
+.esFIRSTsentence4::after{
+ width: 0.125em;
+ background-color: #242424;
+
+ animation:typewriter var(--typewriterSpeed) steps(52) 0.5s  forwards, bar 450ms steps(52) 0.5s 4;
+ animation-delay: 9s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+--- 
+
+.esFIRSTsentence5{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esFIRSTsentence5::before,
+.esFIRSTsentence5::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esFIRSTsentence5::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(57) 0.5s  forwards;
+animation-delay: 11s;
+
+}
+.esFIRSTsentence5::after{
+ width: 0.125em;
+ background-color: #242424;
+
+ animation:typewriter var(--typewriterSpeed) steps(57) 0.5s  forwards, bar 450ms steps(57) 0.5s infinite;
+ animation-delay: 11s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+
+--- 
+
+
+.esSECONDsentence1{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+  
+}
+
+
+.esSECONDsentence1::before,
+.esSECONDsentence1::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esSECONDsentence1::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(69) 0.5s  forwards;
+animation-delay: 3s;
+
+
+}
+.esSECONDsentence1::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(69) 0.5s  forwards, bar 450ms steps(69) 0.5s 4;
+ animation-delay: 3s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+
+
+
+.esSECONDsentence2{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esSECONDsentence2::before,
+.esSECONDsentence2::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esSECONDsentence2::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(14) 0.5s  forwards;
+animation-delay: 5s;
+
+
+}
+.esSECONDsentence2::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(14) 0.5s  forwards, bar 450ms steps(14) 0.5s 4;
+ animation-delay: 5s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+
+.esSECONDsentence3{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esSECONDsentence3::before,
+.esSECONDsentence3::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esSECONDsentence3::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(75) 0.5s  forwards;
+animation-delay: 7s;
+
+
+}
+.esSECONDsentence3::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(75) 0.5s  forwards, bar 450ms steps(75) 0.5s 3;
+ animation-delay: 7s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+.esSECONDsentence4{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esSECONDsentence4::before,
+.esSECONDsentence4::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esSECONDsentence4::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(14) 0.5s  forwards;
+animation-delay: 9s;
+
+
+}
+.esSECONDsentence4::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(14) 0.5s  forwards, bar 450ms steps(14) 0.5s 3;
+ animation-delay: 9s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+
+.esSECONDsentence5{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esSECONDsentence5::before,
+.esSECONDsentence5::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esSECONDsentence5::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(61) 0.5s  forwards;
+animation-delay: 11s;
+
+
+}
+.esSECONDsentence5::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(61) 0.5s  forwards, bar 450ms steps(61) 0.5s 4;
+ animation-delay: 11s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+.esTHERDsentence1{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esTHERDsentence1::before,
+.esTHERDsentence1::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esTHERDsentence1::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(48) 0.5s  forwards;
+animation-delay: 3s;
+
+
+}
+.esTHERDsentence1::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(48) 0.5s  forwards, bar 450ms steps(48) 0.5s 4;
+ animation-delay: 3s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+--- 
+
+.esTHERDsentence2{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esTHERDsentence2::before,
+.esTHERDsentence2::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esTHERDsentence2::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(49) 0.5s  forwards;
+animation-delay: 5s;
+
+
+}
+.esTHERDsentence2::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(49) 0.5s  forwards, bar 450ms steps(49) 0.5s 4;
+ animation-delay: 5s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+--- 
+
+.esTHERDsentence3{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esTHERDsentence3::before,
+.esTHERDsentence3::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esTHERDsentence3::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(21) 0.5s  forwards;
+animation-delay: 7s;
+
+
+}
+.esTHERDsentence3::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(21) 0.5s  forwards, bar 450ms steps(21) 0.5s infinite;
+ animation-delay: 7s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+
+.esFIRSTsentence6{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+}
+
+
+.esFIRSTsentence6::before,
+.esFIRSTsentence6::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esFIRSTsentence6::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(5) 0.5s  forwards;
+animation-delay: 14s;
+
+}
+.esFIRSTsentence6::after{
+ width: 0.125em;
+ background-color: #242424;
+
+ animation:typewriter var(--typewriterSpeed) steps(5) 0.5s  forwards, bar 450ms steps(5) 0.5s infinite;
+ animation-delay: 14s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+
+--- 
+
+
+.esSECONDsentence6{
+  z-index: -1;
+  position: relative;
+  font-family: "Source Code Pro",monospace;
+  
+}
+
+
+.esSECONDsentence6::before,
+.esSECONDsentence6::after{
+  position: absolute;
+  content:'';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.esSECONDsentence6::before{
+  background: #242424;
+
+animation: typewriter var(--typewriterSpeed) steps(70) 0.5s  forwards;
+animation-delay: 13s;
+
+
+}
+.esSECONDsentence6::after{
+ width: 0.125em;
+ background-color: #242424;
+ animation:typewriter var(--typewriterSpeed) steps(70) 0.5s  forwards, bar 450ms steps(70) 0.5s infinite;
+ animation-delay: 13s;
+
+}
+@keyframes typewriter {
+  to{
+    left: 100%;
+  }
+
+  
+}
+@keyframes bar {
+  
+  to{background: white;
+
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.buttonm{
+  
+  margin: 15px;
+border-radius: 10px !important;
+box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 0.75);
+  border: none;
+  height: 50px;
+  width: 50px;
+
+}
+
+
+
+.btn-style {
+  border-radius: 50px !important;
+  margin-left:50px ;
+  margin-right: 50px;
+  color:  white;
+  box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.75);
+  background-color: var(--btn-bg);
+  font-size: 20px !important;
+  font-weight: 500 !important;
+  
+  transition: all .4s ease-in-out !important;
+}
+
+.btn-style:hover{
+  background-color: var(--btn-bg-hover);
+  color: var(--btn-color-hover);
+}
+
+.ahh{
+  margin-bottom: 25px;
+  height: 60px;
+  border:solid 3px white;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+
+
+.triggersbox1{
+  margin-top: 150px;
+  margin-bottom:10px;
+  position: relative;
+  right: 105px;
+  border: solid black 2px;
+  border-radius: 15px !important;
+  background-color: white;
+  transition: all 0.5s ease-in;
+  box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+
+}
+
+.estriggersbox1{
+  margin-top: 150px;
+  margin-bottom:10px;
+  position: relative;
+  right: 135px;
+  border: solid black 2px;
+  border-radius: 15px !important;
+  background-color: white;
+  transition: all 0.5s ease-in;
+  box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+
+}
+.triggersboxactive1{
+  margin-top: 150px;
+  margin-bottom:10px;
+  position: relative;
+  right: 10px;
+  border: solid black 2px;
+  border-radius: 15px !important;
+  background-color: white;
+  transition: all 0.5s ease-in; 
+  box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+ }
+  
+
+
+.triggersbox2{
+  position: relative;
+  right: 98px;
+  margin-bottom:10px;
+
+  border: solid black 2px;
+  border-radius: 15px !important;
+  background-color: white;
+  transition: all 0.5s ease-in;
+  box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+
+}
+.estriggersbox2{
+  position: relative;
+  right: 98px;
+  margin-bottom:10px;
+
+  border: solid black 2px;
+  border-radius: 15px !important;
+  background-color: white;
+  transition: all 0.5s ease-in;
+  box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+
+}
+.triggersboxactive2{
+
+  position: relative;
+  right: 10px;
+  margin-bottom:10px;
+
+  border: solid black 2px;
+  border-radius: 15px !important;
+  background-color: white;
+  transition: all 0.5s ease-in; 
+  box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+ }
+  
+
+
+  .triggersbox3{
+    position: relative;
+    right: 150px;
+    margin-bottom:10px;
+
+    border: solid black 2px;
+    border-radius: 15px !important;
+    background-color: white;
+    transition: all 0.5s ease-in;
+    box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+
+  }
+  .estriggersbox3{
+    position: relative;
+    right: 183px;
+    margin-bottom:10px;
+
+    border: solid black 2px;
+    border-radius: 15px !important;
+    background-color: white;
+    transition: all 0.5s ease-in;
+    box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+
+  }
+  .triggersboxactive3{
+
+    position: relative;
+    right: 10px;
+    margin-bottom:10px;
+  
+    border: solid black 2px;
+    border-radius: 15px !important;
+    background-color: white;
+    transition: all 0.5s ease-in; 
+    box-shadow: 0 4px 15px 8px rgba(0, 0, 0, 0.75);
+ }
+  
+  
