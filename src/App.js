@@ -3,8 +3,6 @@ import {BrowserRouter,Route, Switch, Redirect} from 'react-router-dom'
 import English from './Pages/english';
 import Spanish from './Pages/spanish';
 
-
-
 function App() {
  
 
