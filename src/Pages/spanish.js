@@ -8,7 +8,7 @@ export default function spanish(){
 
   
 
-    const img0=require('../img/foto.png')
+    const img0=require('../img/foto.jpg')
     const arrow=require('../img/arrow.png')
   
 
