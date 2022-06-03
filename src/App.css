@@ -41,6 +41,7 @@ width: max-content;
   text-align: center;
   position: relative;
   text-shadow: 6px 1px 5px  black;
+  word-wrap:break-all;
 } 
 
 

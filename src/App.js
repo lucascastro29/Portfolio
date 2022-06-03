@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-  <div className="App col-12" style={{padding:"0px"}}>
+  <div className="App" style={{padding:"0px"}}>
     <BrowserRouter>
     <Switch>
         <Route path="/" exact>

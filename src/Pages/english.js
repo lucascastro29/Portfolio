@@ -21,11 +21,10 @@ export default function en(){
   
     const img1=require('../img/ecommerce.png')
     const img2=require('../img/DMG.png')
-    const img3=require('../img/huerta-page.png')
     const img4=require('../img/caza.png')
    
 
-    return(<div className="App col-12" style={{padding:"0px"}}>
+    return(<div className="App " style={{padding:"0px"}}>
    
 
     <div class="col-12 divcontainer" >
@@ -34,9 +33,9 @@ export default function en(){
               
               
                                         
-                <div class=" container-flex container1">
+                <div class=" container-flex  container1">
                 <p className=" row languajes" ><a href='/es' style={{textDecoration:"none",color:"white"}}><img src={spanish} alt="spanish"/></a></p>
-                      <p class="user-select-none h1" >Hi I'm Lucas, I design and build web pages</p>
+                      <p class="user-select-none h1 " >Hi I'm Lucas, I design and build web pages</p>
                 </div>
                     
 
