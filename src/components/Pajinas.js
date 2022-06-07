@@ -12,6 +12,7 @@ export default function Pajinas(props){
 
         <Card className="bg-dark text-white    imagefather " data-aos="fade-up"     data-aos-delay={props.delay} >
   <Card.Img src={props.img} alt="card image" className="image" />
+  <div className={props.dive}><strong>In Process</strong></div>
   <Card.ImgOverlay  className="imagefather" >
     <Card.Title className="objectspajes" >{props.title}</Card.Title>
     <Card.Text>

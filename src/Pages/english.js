@@ -21,8 +21,10 @@ export default function en(){
   
     const img1=require('../img/ecommerce.png')
     const img2=require('../img/DMG.png')
+    const img3=require('../img/huerta-page.png')
+
     const img4=require('../img/caza.png')
-   
+
 
     return(<div className="App " style={{padding:"0px"}}>
    
@@ -71,7 +73,7 @@ export default function en(){
     </div>
 
       
-    <div className='d-flex col-12'  style={{justifyContent:"end",marginTop:"80px",marginBottom:"80px"}}>
+    <div className='row'  style={{justifyContent:"end",marginTop:"80px",marginBottom:"80px"}}>
   
   <Collapser  img1={progimg} img2={school} img3={working} miface={img0} data-aos="fade-up" />
 
@@ -85,10 +87,12 @@ export default function en(){
                                 <div id="Projectsbox" className="Projectsbox row" >
                              <div className='col-12 Tittle' style={{marginTop:"30px"}}><h2 className="tittlestyle"style={{marginBottom:"10px"}}><strong>PROJECTS</strong></h2></div>   
 
-                                      <Pajinas img={img1} src="https://lucascastroecommerce.herokuapp.com/" text="Visit Website" title="Ecommerce"/>
-                                      <Pajinas img={img2} src="https://lucascastroecommerce.herokuapp.com/" delay="200" text="Visit Website"  title="Ecommerce"/>
-                                      <Pajinas img={img4} src="https://cazasubmarina.com.uy/" delay="600" text="Visit Website"  title="Cazasubmarina"/>
-                                  
+                                      <Pajinas img={img1} src="https://lucascastroecommerce.herokuapp.com/" dive="inprocess" text="Visit Website" title="Ecommerce"/>
+                                      <Pajinas img={img2} src="https://lucascastroecommerce.herokuapp.com/" dive="inprocesss" delay="200" text="Visit Website"  title="Direct Marketing Agency"/>
+                                      <Pajinas img={img3} src="https://huerta-249.web.app/" delay="300"dive="inprocess" text="Visitar Sitio"  title="Huerta-249"/>
+
+                                      <Pajinas img={img4} src="https://cazasubmarina.com.uy/"  delay="500" dive="inprocesss" text="Visit Website"  title="Cazasubmarina"/>
+
                                       <div className="col-12 d-flex" style={{justifyContent:"center"}}>
                                   <div className='borderbottomx' style={{marginBottom:"60px",marginTop:"20px"}}></div>
                                 </div>  

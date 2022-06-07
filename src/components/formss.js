@@ -9,10 +9,10 @@ export default function forms(props){
     })
   }
     return(
-      <div className='container d-flex row col-12' style={{color:"white",backgroundColor:"rgb(20, 20, 20)",margin:"0px",paddingTop:"20px"}}>
-        <div className="col-1"></div>
+      <div className='container d-flex row col-12 ' style={{color:"white",backgroundColor:"rgb(22, 25, 28)",margin:"0px",paddingTop:"20px"}}>
+        <div className="col-sm-1 col-12"></div>
         
-              <div className="col-5 row" style={{alignItems:"center",justifyContent:"center"}}>
+              <div className="col-sm-5 row col-12" style={{alignItems:"center",justifyContent:"center"}}>
                 <div className="col-12">
                 <h2  style={{marginTop:"30px", fontSize:"40px"}}>{props.title1}</h2>
                 </div>
@@ -20,16 +20,16 @@ export default function forms(props){
                 <Form className="container" style={{textAlign:"start",padding:"5px",height:"250px"}} onSubmit={enviarEmail}>
                   <Form.Group className="mb-3" controlId="formBasicEmail">
                   <Form.Label>{props.form1}</Form.Label>
-                  <Form.Control type="text"  id="from_name" name="from_name"  placeholder={props.form1} style={{width:"150px"}} />
+                  <Form.Control type="text"  id="from_name" name="from_name"     style={{width:"150px",backgroundColor:"#30373e",border:"none",color:"white"}} />
                   
                   </Form.Group>
 
-                  <Form.Group className="mb-3" controlId="formBasicPassword" id="message">
+                  <Form.Group className="mb-3 " controlId="formBasicPassword" id="message">
                   <Form.Label>{props.form2}</Form.Label>
-                  <Form.Control as="textarea" id="message" name="message" placeholder={props.form2} />
+                  <Form.Control as="textarea" id="message" name="message"  style={{backgroundColor:"#30373e",border:"none",color:"white"}}/>
                   </Form.Group>
-                  <div className="col-12 row" style={{justifyContent:"end",margin:"0px",padding:"0px"}}>
-                  <Button variant="primary" type="submit">
+                  <div className="col-12 row " style={{justifyContent:"end",margin:"0px",padding:"0px"}}>
+                  <Button variant="primary" type="submit" style={{backgroundColor:"transparent",border:"none"}}>
                   {props.button}
                   </Button>
                   </div>
@@ -39,8 +39,8 @@ export default function forms(props){
                        
 
               </div>
-<div className="col-1"><h2  style={{marginTop:"30px", fontSize:"40px"}}>{props.title2}</h2></div>
-              <div className="col-4 ">
+<div className="col-sm-1 col-12"><h2  style={{marginTop:"30px", fontSize:"40px"}}>{props.title2}</h2></div>
+              <div className="col-sm-5 col-12  "style={{marginBottom:"30px"}}>
                 <div><h1 style={{fontSize:"40px",marginTop:"30px"}}>{props.title3}</h1><br/>
                   <p style={{fontSize:"20px"}}>{props.text2}</p></div>
                   <div className="col-12 d-flex" style={{alignItems:"center",justifyContent:"center"}}>

@@ -37,11 +37,8 @@
   font-size:300%;
   color: rgb(255, 255, 255);
 font-family: "Source Code Pro",monospace;
-width: max-content;
   text-align: center;
-  position: relative;
   text-shadow: 6px 1px 5px  black;
-  word-wrap:break-all;
 } 
 
 
@@ -248,6 +245,33 @@ padding: 0px;
 }
 .card:hover .imagefather{
   backdrop-filter: saturate(25%)  ;
+
+}
+.inprocess{
+  z-index: 2;
+  position: absolute;
+  width: 150px;
+  height: 20px;
+ transform:rotate(45deg);
+ top:30px;
+ left:180px;
+ color:transparent;
+ transition: all 0.8s ease;
+}
+.inprocesss{
+  z-index: 2;
+  position: absolute;
+  width: 150px;
+  height: 20px;
+ transform:rotate(45deg);
+ top:30px;
+ left:180px;
+ color:transparent;
+ transition: all 0.8s ease;
+}
+.card:hover .inprocesss{
+  background-color: yellow;
+  color: black;
 
 }
 .objectspajes{

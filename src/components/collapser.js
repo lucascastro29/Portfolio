@@ -134,14 +134,20 @@ killme1(e){
       THERDsentence4:"font24 font25 THERDsentence4",
       THERDsentence5:"font24 font25 THERDsentence5"
     })
+
+    function rerender(){
+      if(window.width<576){
+
+      }
+    }
   }
 render(){
 return (
     
     
 <>
-<div className='col-2 boxMe2 imgfather ' style={{padding:"0px"}} data-aos="fade-right">
-                    <div className="col-12 imgfather"  style={{width:"100%",height:"100%",padding:"0px"}}  >
+<div className='col-sm-2 col-12 boxMe2 imgfather' style={{padding:"0px"}} data-aos="fade-right">
+                    <div className=" imgfather"  style={{width:"100%",height:"100%",padding:"0px"}}  >
                           <img src={this.props.miface} className="image" alt="Foto de perfil" ></img>
                           
                     
@@ -152,7 +158,8 @@ return (
                   
                           
               </div>  
-                 <div className='col-6 boxMe border rounded ' data-aos="fade-right" style={{padding:"0px"}}  >
+              
+                 <div className='col-sm-6 col boxMe border rounded ' data-aos="fade-right" style={{padding:"0px"}}  >
 
                       <div className="col-12 d-flex ahh" >
                         <p  className={this.state.Studies} style={{margin:"5px"}}>Studies </p>
