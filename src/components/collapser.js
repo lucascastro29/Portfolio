@@ -158,8 +158,8 @@ return (
                   
                           
               </div>  
-              
-                 <div className='col-sm-6 col boxMe border rounded ' data-aos="fade-right" style={{padding:"0px"}}  >
+
+                 <div className='col-sm-6 col boxMe border rounded ' data-aos="fade-right" style={{padding:"0px",margin:"0px"}}  >
 
                       <div className="col-12 d-flex ahh" >
                         <p  className={this.state.Studies} style={{margin:"5px"}}>Studies </p>
@@ -168,8 +168,9 @@ return (
 
 
                       </div>
-                      <div className="col-12 ">
-                      <p className={this.state.FIRSTsentence1} >
+                      <div className="col-12 " style={{padding:"0px"}}>
+                        <div style={{padding:"0px"}}>
+                        <p className={this.state.FIRSTsentence1}  >
                           i'm a young web Developer, with knowledge in Html,</p><p className={this.state.SECONDsentence1} style={{fontSize:"20px"}}>- Bachiller cientific in Liceo 15 since March 2018 until December 2020</p><p className={this.state.THERDsentence1}>I worked in "Cyber Green" Since 2020 until 2022</p><br/>
                           <p className={this.state.FIRSTsentence2}>Css, js, node and React. With knowledge in work</p><p className={this.state.SECONDsentence2} style={{fontSize:"20px"}}>- First year of Computer engenier in the "Facultad de Ingeniería de la</p> <p className={this.state.THERDsentence2}> working us a computer technical service and </p><br/>
                           <p className={this.state.FIRSTsentence3}>flows like scrum, kanban and agiles methodologies,</p><p className={this.state.SECONDsentence3} style={{fontSize:"20px"}}> Republica"</p> <p className={this.state.THERDsentence3}>client service.</p><br/>
@@ -177,6 +178,8 @@ return (
                           <p className={this.state.FIRSTsentence5}> of a team.</p><p className={this.state.SECONDsentence5} style={{fontSize:"20px"}}>-Studing for the first Cambridge exam for the begining of 2023</p><p className={this.state.THERDsentence5} style={{fontSize:"20px"}}></p>
 
                           
+                        </div>
+                     
                       </div>
                           <div id="targetbutton2" className="words">
                        </div>
@@ -188,8 +191,8 @@ return (
                   </div>
 
                 
-              <div className='col-2 boxMe3 ' style={{padding:"0px"}} data-aos="fade-right">
-                          <div className="col-12 row"  >                          
+              <div className='col-2 boxMe3 ' style={{margin:"0px",}} data-aos="fade-right">
+                          <div className="col-12 row"   >                          
                                 <div className={this.state.contador1} onClick={this.killme1}  >
                                     <p style={{margin:"15px"}}><strong>About Me</strong></p>
                                     <div className="imagefather"  style={{height:"64px",width:"64px",marginRight:"7px"}}>

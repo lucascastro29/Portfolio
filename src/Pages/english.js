@@ -26,7 +26,7 @@ export default function en(){
     const img4=require('../img/caza.png')
 
 
-    return(<div className="App " style={{padding:"0px"}}>
+    return(<div className="App col-12" style={{padding:"0px"}}>
    
 
     <div class="col-12 divcontainer" >
@@ -35,7 +35,7 @@ export default function en(){
               
               
                                         
-                <div class=" container-flex  container1">
+                <div class=" container-flex  container1  ">
                 <p className=" row languajes" ><a href='/es' style={{textDecoration:"none",color:"white"}}><img src={spanish} alt="spanish"/></a></p>
                       <p class="user-select-none h1 " >Hi I'm Lucas, I design and build web pages</p>
                 </div>
@@ -73,7 +73,7 @@ export default function en(){
     </div>
 
       
-    <div className='row'  style={{justifyContent:"end",marginTop:"80px",marginBottom:"80px"}}>
+    <div className='row'  style={{justifyContent:"end",margin:"0px",marginTop:"80px",marginBottom:"80px",}}>
   
   <Collapser  img1={progimg} img2={school} img3={working} miface={img0} data-aos="fade-up" />
 
@@ -82,18 +82,18 @@ export default function en(){
 </div>
    
 
-                            <div  className='col-12 projects' >
-                              <div class='container-flex filterxd'>
-                                <div id="Projectsbox" className="Projectsbox row" >
+                            <div  className='col-12 col-sm-12 projects' >
+                              <div class='d-flex row filterxd' >
+                                <div  className="Projectsbox  row" style={{width:"100%"}}  >
                              <div className='col-12 Tittle' style={{marginTop:"30px"}}><h2 className="tittlestyle"style={{marginBottom:"10px"}}><strong>PROJECTS</strong></h2></div>   
 
-                                      <Pajinas img={img1} src="https://lucascastroecommerce.herokuapp.com/" dive="inprocess" text="Visit Website" title="Ecommerce"/>
-                                      <Pajinas img={img2} src="https://lucascastroecommerce.herokuapp.com/" dive="inprocesss" delay="200" text="Visit Website"  title="Direct Marketing Agency"/>
-                                      <Pajinas img={img3} src="https://huerta-249.web.app/" delay="300"dive="inprocess" text="Visitar Sitio"  title="Huerta-249"/>
+                                      <Pajinas className="col-12 col-sm-2" img={img1} src="https://lucascastroecommerce.herokuapp.com/" dive="inprocess" text="Visit Website" title="Ecommerce"/>
+                                      <Pajinas className="col-12 col-sm-2" img={img2} src="https://lucascastroecommerce.herokuapp.com/" dive="inprocesss" delay="200" text="Visit Website"  title="Direct Marketing Agency"/>
+                                      <Pajinas className="col-12 col-sm-2" img={img3} src="https://huerta-249.web.app/" delay="300"dive="inprocess" text="Visitar Sitio"  title="Huerta-249"/>
 
-                                      <Pajinas img={img4} src="https://cazasubmarina.com.uy/"  delay="500" dive="inprocesss" text="Visit Website"  title="Cazasubmarina"/>
+                                      <Pajinas  className="col-12 col-sm-2" img={img4} src="https://cazasubmarina.com.uy/"  delay="500" dive="inprocesss" text="Visit Website"  title="Cazasubmarina"/>
 
-                                      <div className="col-12 d-flex" style={{justifyContent:"center"}}>
+                                      <div className="col-12 d-flex" style={{justifyContent:"center",margin:"0px",padding:"0px"}}>
                                   <div className='borderbottomx' style={{marginBottom:"60px",marginTop:"20px"}}></div>
                                 </div>  
 

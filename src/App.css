@@ -135,10 +135,11 @@ color: white;
   margin-bottom: 30px
 }
 .Projectsbox{  
-  display: flex;
   align-items: center;
   justify-content: center;
   backdrop-filter: blur(1.5px)  ;
+  
+  
   
 ;
 }
@@ -314,6 +315,9 @@ transition: all ease 0.5s ;
   padding: 0px;
 
 }
+p{
+  padding: 0px;
+}
 
 .projects{
   background:url(https://www.trepcom.com/wp-content/uploads/2014/10/screenshotgv.png) ;
@@ -321,6 +325,7 @@ transition: all ease 0.5s ;
   background-attachment: fixed;
   background-position:center;
   background-size: cover;
+  padding: 0px;
 
 
 }
@@ -350,7 +355,8 @@ top:30px
 }
 
 .filterxd{
-  backdrop-filter: blur(2px) saturate(80%);}
+  backdrop-filter: blur(2px) saturate(80%);
+padding: 1px;}
 
 
 
@@ -375,6 +381,8 @@ top:30px
 
 
 .font25{z-index: 1;
+  padding: 0px;
+
   color: white;
   position: absolute;
 }
@@ -2163,6 +2171,7 @@ box-shadow: 5px 5px 1px 0px rgba(0, 0, 0, 0.75);
 
 
 .triggersbox1{
+  
   margin-top: 150px;
   margin-bottom:10px;
   position: relative;

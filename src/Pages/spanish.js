@@ -75,7 +75,7 @@ return(
     </div>
 
       
-    <div className='d-flex col-12'  style={{justifyContent:"end",alignItems:"center",marginTop:"80px",marginBottom:"80px",padding:"0px"}}>
+    <div className='row'  style={{justifyContent:"end",alignItems:"center",margin:"0px",marginTop:"80px",marginBottom:"80px"}}>
   
   <CollapserEs  img1={progimg} img2={school} img3={working} miface={img0} data-aos="fade-up" />
 
@@ -85,8 +85,8 @@ return(
    
 
                             <div  className='col-12 col-sm-12 projects' >
-                              <div class='container-flex filterxd'>
-                                <div id="Projectsbox" className="Projectsbox row" >
+                              <div class='d-flex row filterxd'>
+                                <div id="Projectsbox " className="Projectsbox row" style={{width:"100%"}} >
                              <div className='col-12 Tittle' style={{marginTop:"30px"}}><h2 className="tittlestyle"style={{marginBottom:"10px"}}><strong>PROJECTOS</strong></h2></div>   
 
                                       <Pajinas img={img1} src="https://lucascastroecommerce.herokuapp.com/" text="Visitar Sitio"dive="inprocess"  title="Ecommerce"/>
