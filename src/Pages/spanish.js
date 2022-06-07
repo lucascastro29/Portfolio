@@ -75,7 +75,7 @@ return(
     </div>
 
       
-    <div className='d-flex col-12'  style={{justifyContent:"end",alignItems:"center",marginTop:"80px",marginBottom:"80px"}}>
+    <div className='d-flex col-12'  style={{justifyContent:"end",alignItems:"center",marginTop:"80px",marginBottom:"80px",padding:"0px"}}>
   
   <CollapserEs  img1={progimg} img2={school} img3={working} miface={img0} data-aos="fade-up" />
 
