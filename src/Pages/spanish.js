@@ -22,7 +22,6 @@ export default function spanish(){
   
     const img1=require('../img/ecommerce.png')
     const img2=require('../img/DMG.png')
-    const img3=require('../img/huerta-page.png')
     const img4=require('../img/caza.png')
    
 const dive='<div className="inprocess"><strong>In Process</strong></div>'
