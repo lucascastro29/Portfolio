@@ -89,7 +89,6 @@ export default function en(){
 
                                       <Pajinas className="col-12 col-sm-2" img={img1} src="https://lucascastroecommerce.herokuapp.com/" dive="inprocess" text="Visit Website" title="Ecommerce"/>
                                       <Pajinas className="col-12 col-sm-2" img={img2} src="https://lucascastroecommerce.herokuapp.com/" dive="inprocesss" delay="200" text="Visit Website"  title="Direct Marketing Agency"/>
-                                      <Pajinas className="col-12 col-sm-2" img={img3} src="https://huerta-249.web.app/" delay="300"dive="inprocess" text="Visitar Sitio"  title="Huerta-249"/>
 
                                       <Pajinas  className="col-12 col-sm-2" img={img4} src="https://cazasubmarina.com.uy/"  delay="500" dive="inprocesss" text="Visit Website"  title="Cazasubmarina"/>
 

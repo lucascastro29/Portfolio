@@ -146,8 +146,8 @@ return (
     
     
 <>
-<div className='col-sm-2 col-12 boxMe2 imgfather' style={{padding:"0px"}} data-aos="fade-right">
-                    <div className=" imgfather"  style={{width:"100%",height:"100%",padding:"0px"}}  >
+<div className='col-sm-2 col-12 boxMe2 imgfather' style={{padding:"0px",margin:"0px"}} data-aos="fade-right">
+                    <div className="col-12 imgfather"  style={{width:"100%",height:"100%",padding:"0px"}}  >
                           <img src={this.props.miface} className="image" alt="Foto de perfil" ></img>
                           
                     

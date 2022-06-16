@@ -91,7 +91,6 @@ return(
 
                                       <Pajinas img={img1} src="https://lucascastroecommerce.herokuapp.com/" text="Visitar Sitio"dive="inprocess"  title="Ecommerce"/>
                                       <Pajinas img={img2} src="https://lucascastroecommerce.herokuapp.com/" div={dive} delay="200" text="Visitar Sitio" dive="inprocesss"  title="Direct Marketing Agency"/>
-                                      <Pajinas img={img3} src="https://huerta-249.web.app/" delay="300" text="Visitar Sitio"dive="inprocess"  title="Huerta-249"/>
                                       <Pajinas img={img4} src="https://cazasubmarina.com.uy/" dive="inprocesss" delay="500" text="Visitar Sitio"  title="Cazasubmarina"/>
 
                                       <div className="col-12 d-flex" style={{justifyContent:"center"}}>
