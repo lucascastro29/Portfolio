@@ -143,9 +143,10 @@ killme1(e){
   }
 render(){
 return (
-
+    
+    
+<>
 <div className='col-sm-2 col-12 boxMe2 imgfather' style={{padding:"0px",margin:"0px"}} data-aos="fade-right">
-<div className='col-sm-2 col-12 boxMe2 imgfather ' style={{padding:"0px",margin:"0px"}} data-aos="fade-right">
                     <div className="col-12 imgfather"  style={{width:"100%",height:"100%",padding:"0px"}}  >
                           <img src={this.props.miface} className="image" alt="Foto de perfil" ></img>
                           
@@ -167,14 +168,17 @@ return (
 
 
                       </div>
-                      <div className="col-12 " >
-                        <p className={this.state.FIRSTsentence1}  > i'm a young web Developer, with knowledge in Html,</p><p className={this.state.SECONDsentence1} style={{fontSize:"20px"}}>- Bachiller cientific in Liceo 15 since March 2018 until December 2020</p><p className={this.state.THERDsentence1}>I worked in "Cyber Green" Since 2020 until 2022</p><br/>
+                      <div className="col-12 " style={{padding:"0px"}}>
+                        <div style={{padding:"0px"}}>
+                        <p className={this.state.FIRSTsentence1}  >
+                          i'm a young web Developer, with knowledge in Html,</p><p className={this.state.SECONDsentence1} style={{fontSize:"20px"}}>- Bachiller cientific in Liceo 15 since March 2018 until December 2020</p><p className={this.state.THERDsentence1}>I worked in "Cyber Green" Since 2020 until 2022</p><br/>
                           <p className={this.state.FIRSTsentence2}>Css, js, node and React. With knowledge in work</p><p className={this.state.SECONDsentence2} style={{fontSize:"20px"}}>- First year of Computer engenier in the "Facultad de Ingeniería de la</p> <p className={this.state.THERDsentence2}> working us a computer technical service and </p><br/>
                           <p className={this.state.FIRSTsentence3}>flows like scrum, kanban and agiles methodologies,</p><p className={this.state.SECONDsentence3} style={{fontSize:"20px"}}> Republica"</p> <p className={this.state.THERDsentence3}>client service.</p><br/>
                           <p className={this.state.FIRSTsentence4}> with the hability of work by my self or bee part</p><p className={this.state.SECONDsentence4} style={{fontSize:"20px"}}>- "Jóvenes a Programar" since March 2021 until December 2022</p> <p className={this.state.THERDsentence4}></p><br/>
                           <p className={this.state.FIRSTsentence5}> of a team.</p><p className={this.state.SECONDsentence5} style={{fontSize:"20px"}}>-Studing for the first Cambridge exam for the begining of 2023</p><p className={this.state.THERDsentence5} style={{fontSize:"20px"}}></p>
 
                           
+                        </div>
                      
                       </div>
                           <div id="targetbutton2" className="words">
@@ -234,8 +238,8 @@ return (
            
                                    
    
-     </div>
-    
+     
+    </>
   )}
 }
 
