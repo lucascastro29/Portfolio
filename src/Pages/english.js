@@ -72,9 +72,9 @@ export default function en(){
     </div>
 
       
-    <div className='row'  style={{justifyContent:"end",margin:"0px",marginTop:"80px",marginBottom:"80px",}}>
+    <div className='row'  style={{margin:"0px",marginTop:"80px",marginBottom:"80px",}}>
   
-  <Collapser  img1={progimg} img2={school} img3={working} miface={img0} data-aos="fade-up" />
+  <Collapser   miface={img0} data-aos="fade-up" />
 
 
    

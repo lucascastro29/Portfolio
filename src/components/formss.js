@@ -43,7 +43,7 @@ export default function forms(props){
               <div className="col-sm-5 col-12  "style={{marginBottom:"30px"}}>
                 <div><h1 style={{fontSize:"40px",marginTop:"30px"}}>{props.title3}</h1><br/>
                   <p style={{fontSize:"20px"}}>{props.text2}</p></div>
-                  <div className="col-12 d-flex" style={{alignItems:"center",justifyContent:"center"}}>
+                  <div className="col-12 d-flex" style={{alignItems:"center",justifyContent:"center",paddingTop:"30px"}}>
                   <div>
                       <a href="https://www.linkedin.com/in/lucas-castro-7b4003219/">
                                       <svg xmlns="http://www.w3.org/2000/svg" className="logos1" fill="currentColor"  viewBox="0 0 16 16">
