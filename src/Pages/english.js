@@ -103,6 +103,12 @@ export default function en(){
                                
 
                             </div>
+
+
+
+
+
+                            
        <h2 className="Tittle"><strong>My Self</strong></h2>
 
 

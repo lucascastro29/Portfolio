@@ -6,7 +6,7 @@ export default function forms(props){
     e.preventDefault();
     emailjs.sendForm('service_86ytpbx','template_ocqequz',e.target,'ZX2hCZ55pcM9PJ_W8').then(res=>{
       alert("Enviado Correctamente");
-    })
+    }) 
   }
     return(
       <div className='container d-flex row col-12 ' style={{color:"white",backgroundColor:"rgb(22, 25, 28)",margin:"0px",paddingTop:"20px"}}>
